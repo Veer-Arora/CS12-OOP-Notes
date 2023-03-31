@@ -7,7 +7,7 @@ Here's an example of how to make a class:
 ```python
 # Example of Class
 
-class HUman:
+class Human:
     def __init__(self,name):
         self.name = name
 
