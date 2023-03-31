@@ -63,7 +63,9 @@ human_speak(student)    # prints 'Hi, I'm a student!'
 
 ```
 
+In this example, both the `Human` and `Student` classses have a `speak()` method, but the implementation of `speak()` is different in each class. When the `human_speak()` function is called with a `Human` object and a `Student` object, it uses the corresponding implementation of `speak()` for each object. This is an example of polymorphism in action. 
 
+## And there we have it! Now that you know the basics of OOPs, go and try it out for yourself!
 
 
 
