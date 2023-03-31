@@ -17,10 +17,11 @@ class HUman:
 ```
 
 ## Some Key Terms so Far:
-- Class
-- Def
-- Init
-- Self
-- Str
+- ```Class``` used to define a new class
+- ```def``` defines a new function
+- ```__init__``` an initialization method
+- ```self``` a reference to the instance of a class
+- ```__str__()``` returns the string representation of the object
+- ```__repr__()``` uh
 
-Wrap up. 
+_These are just the very basics! Check the next page as we get into more depth!_
