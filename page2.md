@@ -35,17 +35,24 @@ In this example, the `Human` class has three instance variables: `name`, `age`, 
 And to touch on that, the `get_age()` method allows you to retrieve the value of age from outside the class, while the `set_age()` method allows you to update its value. This encapsulation helps to protect the data within the object from being accessed or modified inappropriately from outside the class. 
 
 ## Inheritance
--
-- 
+- When an object/class is based on another class (where its features are from a parent class)
+- There are 3 Types: Single Inheritance, Multiple Inheritance, and Mulit-Level Inheritance
 
 Here's an example:
 ```python
 # Example of Inheritance
 
+class Student(Human):
+    def __init__(self, name, age, gender, student_id):
+        super().__init__(name, age, gender)
+        self.student_id = student_id
+
+    def study(self):
+        print(f'{self.name} is studying.')
 
 ```
 
-Description
+In this example, the `Student` class is defines as a subclass of `Human`. It inherits all the attributes and methods of the `Human` class, inclduing the encapsulated `age` variable and its getter and setter methods. 
 
 
-Closing
+_And that's about it!_
